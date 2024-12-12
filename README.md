@@ -9,8 +9,8 @@ _see_: https://www.misp-project.org/
 ## Dependencies
 This container is part of the Resilmesh Framework and depends on the other following containers:
 - [Vector](../Vector/README.md)
-- [NATS](../Nats/Dockerfile)
-- [Silent Push - Enrichment](../Modules/SilentPush/enrichment/README.md)
+- [NATS](../NATS/README.md)
+- [Silent Push - Enrichment](../Enrichment/README.md)
 
 Also, depends on a MISP instance, see the next step.
 
