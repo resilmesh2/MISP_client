@@ -2,7 +2,6 @@ FROM python:3.9 AS misp_client
 LABEL authors="jorgeley@silentpush.com"
 
 RUN apt -y update
-RUN apt -y install procps iputils* net-tools
 RUN adduser app --system --home /home/app
 RUN chown -R app:nogroup /home/app
 
