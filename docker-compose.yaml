@@ -12,4 +12,4 @@ services:
       resilmesh_network:
     extra_hosts:
       - "host.docker.internal:host-gateway"
-    depends_on: ["resilmesh_ap_nats"]
+    depends_on: ["resilmesh_ap_nats", "misp-core"]
