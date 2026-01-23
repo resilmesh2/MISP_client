@@ -26,7 +26,7 @@ With the API key copied in the previous step, create an .env file with the follo
 ```dotenv
 MISP_API_KEY="<YOUR API KEY>"
 MISP_API_URL="https://<YOUR MISP SERVER IP>:8443"
-NATS_URL="nats://nats:4222"
+NATS_URL="nats://resilmesh-ap-nats:4222"
 SUBSCRIBE_SUBJECT="enriched_events"
 SUBSCRIBE_QUEUE="misp_queue"
 MISP_CERTIFICATE_VERIFY=0
